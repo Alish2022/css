@@ -1,0 +1,91 @@
+:root{
+    --green:#1D9D73;
+    --grey:#888888;
+    --black:#333333;
+    --offset: 15px;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: var(--grey);
+	font-size: 16px;
+}
+
+h1,h2,h3,.h1,.h2,.h3{
+	font-weight: 300;
+	color: var(--black);
+}
+
+h1, .h1{
+    font-size: 5.5rem;
+	margin: 3rem 0;
+}
+
+h2, .h2{
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+
+
+h3, .h3{
+    font-size: 2.6rem;
+    margin: 1.6rem 0;
+}
+
+strong, .strong{
+	font-weight: 400;
+}
+
+em, .em{
+	font-weight: 300;
+	font-style: italic;
+}
+
+p, .p{
+	font-weight: 300;
+	margin: 0 0;
+}
+
+.container{
+	max-width: 1170px;
+	padding: 10px 30px;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 calc(var(--offset) * -1);
+}
+
+.col{
+	margin: var(--offset);
+	box-sizing: border-box;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 20px;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.btn-green{
+	background: var(--green);
+	color: #fff;
+}
+
+
+
+

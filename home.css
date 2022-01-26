@@ -1,0 +1,56 @@
+.header_row{
+    justify-content: space-between;
+}
+
+.about_col, .choose_us_col,.work_col,.adv_col{
+    width: calc(100% / 2 - 30px);
+}
+
+.about_col_h2, .choose_us_h3,.h3_how_we_work,.our_team_name{
+    color:var(--green)
+}
+
+.learn_more_col,.our_team_col{
+	width: calc(100% / 3 - 30px);
+}
+
+.learn_more_p{
+    margin-bottom: 30px;
+}
+
+.learm_more_btn{
+    background-color: var(--green);
+    color: white;
+    padding: 15px 60px;
+    border-radius: 30px;
+}
+
+.wrapper_img{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--green);
+}
+
+.adv_icon{
+    display: inline-block;
+    padding-top:20px ;
+}
+
+.adv_item_text{
+   width: calc(100% - 160px);
+}
+
+.adv_item_h2{
+    margin-top: 0;
+}
+
+.footer_wrap{
+    text-align: center;
+}
+
+.out_team_h1{
+    text-align: center;
+}
+
